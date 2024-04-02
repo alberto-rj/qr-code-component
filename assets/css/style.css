@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Outfit;
+  src: url('../fonts/Outfit.ttf');
+  font-display: swap;
+}
+
+:root {
+  --blue: #1C5AB9;
+  --dark-navy: #142238;
+  --grey: #071A3C;
+  --light-grey: #D5E1EF;
+  --white: #FFFFFF;
+  --shadow-color: rgba(0, 0, 0, 4.77%);
+}
+
+*::before,
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--light-grey);
+  color: var(--grey);
+  font-family: Outfit;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.011875rem;
+  
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+  .main-content {
+    padding: 2rem 1rem;
+  }
+
+    .card {
+      background-color: var(--white);
+      border-radius: 1.25rem;
+      box-shadow: 0 25px 25px 0 var(--shadow-color);
+      max-width: 320px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+      .card__thumb {
+        border-radius: 0.625rem;
+        height: auto;
+        width: 100%;
+      }
+
+      .card__title {
+        color: var(--dark-navy);
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin: 1.5rem auto 1rem auto;
+        max-width: 18rem;
+      }
+
+      .card__description {
+        margin: 0 auto 1.5rem auto;
+        max-width: 16rem;
+      }
+
+
+  .attribution {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+    .attribution p {
+      max-width: 12rem;
+    }
+
+      .attribution a {
+        font-weight: 700;
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      .attribution a:hover {
+        color: var(--grey);
+        text-decoration: underline;
+      }
+
+      .attribution a:focus-visible {
+        color: var(--grey);
+        outline: 2px dashed var(--blue);
+      }
