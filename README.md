@@ -43,6 +43,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- GitHub - [Alberto Raúl José](https://www.github.com/alberto-rj)
+- GitHub - [@alberto-rj](https://www.github.com/alberto-rj)
 - Frontend Mentor - [@alberto-rj](https://www.frontendmentor.io/profile/alberto-rj)
 - Twitter - [@albertorauljose](https://www.twitter.com/albertorauljose)
